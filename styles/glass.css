@@ -1,0 +1,61 @@
+/* Glassmorphism and animation utility classes for sidebar and dropdowns */
+
+.sidebar-glass {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  background: rgba(255,255,255,0.55);
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255,255,255,0.25);
+  backdrop-filter: blur(18px) saturate(1.2);
+  -webkit-backdrop-filter: blur(18px) saturate(1.2);
+}
+
+.glass-section {
+  background: rgba(255,255,255,0.35);
+  border-radius: 1.25rem;
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 4px 24px 0 rgba(31, 38, 135, 0.10);
+  transition: box-shadow 0.3s, background 0.3s;
+  backdrop-filter: blur(10px) saturate(1.1);
+  -webkit-backdrop-filter: blur(10px) saturate(1.1);
+}
+
+.glass-section:hover {
+  background: rgba(255,255,255,0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+}
+
+.glass-dropdown, .glass-dropdown-group {
+  background: rgba(255,255,255,0.30);
+  border-radius: 1rem;
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 2px 12px 0 rgba(31, 38, 135, 0.08);
+  transition: box-shadow 0.3s, background 0.3s;
+  backdrop-filter: blur(8px) saturate(1.1);
+  -webkit-backdrop-filter: blur(8px) saturate(1.1);
+}
+
+.glass-dropdown:hover, .glass-dropdown-group:hover {
+  background: rgba(255,255,255,0.45);
+  box-shadow: 0 6px 24px 0 rgba(31, 38, 135, 0.14);
+}
+
+.glass-dropdown-content {
+  background: transparent;
+  border-radius: 1rem;
+  transition: background 0.3s;
+}
+
+.glass-layer-item {
+  background: rgba(255,255,255,0.28);
+  border-radius: 1rem;
+  border: 1px solid rgba(255,255,255,0.14);
+  box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.07);
+  transition: box-shadow 0.3s, background 0.3s;
+  backdrop-filter: blur(8px) saturate(1.1);
+  -webkit-backdrop-filter: blur(8px) saturate(1.1);
+}
+
+.glass-layer-item:hover {
+  background: rgba(255,255,255,0.45);
+  box-shadow: 0 6px 24px 0 rgba(31, 38, 135, 0.13);
+}
